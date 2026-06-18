@@ -1,0 +1,16 @@
+def greet():
+    print ("function with no return type and no argument")
+
+greet()
+
+def getno(num):
+    print("No is :",num)
+
+getno(2)
+
+def get_sq():
+    return 2*2
+
+op=get_sq()
+print(op*2)
+print(get_)

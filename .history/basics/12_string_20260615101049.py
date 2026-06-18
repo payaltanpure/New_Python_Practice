@@ -1,0 +1,8 @@
+s="I, am, payal"
+print(s)
+print(type)
+print(id(s))
+words= s.split(",")
+print(words)
+print(type(words))
+print(id(words))

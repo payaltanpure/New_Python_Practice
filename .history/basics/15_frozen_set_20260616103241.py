@@ -1,0 +1,57 @@
+x= frozenset([1,2,3,4,5])
+print(x)
+print(type(x))
+
+a=frozenset([1,2,3])
+b= frozenset([3,4,5])
+print(a|b)
+print(a&b)
+print(a-b)
+print(a^b)
+
+#nested set 
+# a={1,2,3,4}
+# b={a}
+# ps= {11,22,33,{33,44,55}}
+# print(ps)
+#not allowed nested set
+
+# not allowed mixed data structure set
+# ps= {11,22,33,[44,55,66]}
+# print(ps)
+
+# frozenset allows nested sets but not in traditional way 
+# this is not allowed
+# ps= frozenset([11,22,33],[44,55,66])
+# print(ps)
+fs= frozenset([11,22,33])
+s={fs}
+print(s)
+
+
+# frozenset- set - frozenset to add data into the set 
+print("frozenset- set - frozenset")
+fs= frozenset([101,102])
+print(id(fs))
+temp= set(fs)
+temp.add(103)
+print(temp, type(temp))
+print(id(temp))
+fs= frozenset(temp)
+print(fs, type(fs))
+print(id(fs))
+
+# output 
+# frozenset- set - frozenset
+# 1466426727936
+# {101, 102, 103} <class 'set'>
+# 1466426727264
+# frozenset({101, 102, 103}) <class 'frozenset'>
+# 1466426728384
+
+# first fs address is diff and nesty fs add is diff meand two diff frozensets are created even after converting the 
+# frozenset 
+
+
+
+

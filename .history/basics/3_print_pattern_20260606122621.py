@@ -1,0 +1,1 @@
+name = input("Enter full name:");

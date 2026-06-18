@@ -1,0 +1,12 @@
+x=[[1,2,3], [4,5,6],[7,8,9]]
+
+print(type(x))
+print(x[1])
+print(x[1][2])
+
+for i in x:
+    print(i)
+
+for row in x: 123
+    for col in row:
+        print(col, end=" ")
