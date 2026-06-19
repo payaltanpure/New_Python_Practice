@@ -1,0 +1,11 @@
+from A import A
+
+class C(A):
+     #here the name para of parent class A is not decalred again to set the vlaue to it and to use in this class , it is set using **kwargs 
+    #and age the new independent para of this own C class is set to age using key value pair set that is set in child class of C that is D becoz call to C parent class of D is from D parent class 
+    def __init__(self, age, **kwargs):
+        super().__init__(**kwargs)
+        print("C con")
+        self.age= age
+        print(f"{self.age}")
+        

@@ -1,0 +1,7 @@
+from saving import savingaccount
+from loan import loan
+
+class customer(savingaccount, loan):
+
+    def cus_info(self):
+        print()
