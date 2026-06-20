@@ -1,0 +1,14 @@
+class a:
+
+    def __init__(self):
+        self._name="Payal"
+
+    def _m(self):
+        print("Hello m")
+
+a= a()
+a._m()
+print(a._name)
+#update value of protected 
+a._name="Anu"
+print(a._name)

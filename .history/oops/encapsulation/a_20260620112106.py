@@ -1,0 +1,15 @@
+class a:
+
+    def __init__(self):
+        #protected var
+        self._name="Payal"
+
+    def _m(self):
+        print("Hello m")
+
+a= a()
+a._m()
+print(a._name)
+#update value of protected var
+a._name="Anu"
+print(a._name)
