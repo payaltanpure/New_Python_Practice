@@ -1,0 +1,27 @@
+from bank import bank
+
+class HDFC(bank):
+
+    def deposit(self, amount):
+        total=self.getBal()
+        total+=amount
+        self.setBal(total)
+        print("Your credited amount is:", amount)
+        print("HDFC",super().checkbal())
+
+
+
+    def withdraw(self, amount):
+        bal= self.getBal()
+        if amount < bal:
+            bal-=amount
+            self.setBal(bal)  
+            print("Amount deducted is:", amount)
+            print("HDFC",super().checkbal())   
+        else:
+            print("Insufficient Balance to withdraw")    
+
+# h= HDFC()
+# # s.setBal(500)
+# h.deposit(1000)
+# h.withdraw(500)
