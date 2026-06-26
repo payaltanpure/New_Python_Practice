@@ -1,0 +1,10 @@
+import sqlite3
+
+conn=sqlite3.connect("student.db")
+
+cursor= conn.cursor()
+
+cursor.execute(""" 
+
+""")
+
