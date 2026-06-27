@@ -1,0 +1,8 @@
+import sqlite3
+
+conn= sqlite3.connect("employee.db")
+print("db connected ")
+
+cursor= conn.cursor()
+
+cursor.execute
