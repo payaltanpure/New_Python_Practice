@@ -1,2 +1,0 @@
-from animal import animal
-

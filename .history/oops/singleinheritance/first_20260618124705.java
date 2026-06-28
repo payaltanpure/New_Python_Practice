@@ -1,5 +1,0 @@
-class first
-{
-    public:
-      
-}

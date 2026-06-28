@@ -1,1 +1,0 @@
-class PasswordError(Exception)

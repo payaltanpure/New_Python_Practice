@@ -1,3 +1,0 @@
-from device import device
-class mobile(device):
-    def 

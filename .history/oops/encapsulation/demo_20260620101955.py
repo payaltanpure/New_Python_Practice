@@ -1,4 +1,0 @@
-class demo:
-
-    #instance variable
-    

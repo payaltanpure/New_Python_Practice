@@ -1,7 +1,0 @@
-class p2:
-
-    def abc(self):
-        print("p2 abc method")
-
-    def common(self):
-        print("P2 Common method")

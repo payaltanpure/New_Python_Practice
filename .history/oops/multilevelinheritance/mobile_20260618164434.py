@@ -1,2 +1,0 @@
-c
-lass mobile:

@@ -1,7 +1,0 @@
-class vehicle:
-    
-    def start(self):
-        print("Vehicle Started")
-
-    def __init__(self, brand, pr):
-        self.brand= brand

@@ -1,3 +1,0 @@
-import crud
-
-print("Emp")

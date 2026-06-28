@@ -1,3 +1,0 @@
-print("Start-->")
-try:
-    print()

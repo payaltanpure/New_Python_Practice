@@ -1,3 +1,0 @@
-class college:
-    #class var
-    

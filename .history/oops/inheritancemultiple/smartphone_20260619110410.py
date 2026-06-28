@@ -1,3 +1,0 @@
-class sp:
-
-    def __

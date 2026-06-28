@@ -1,3 +1,0 @@
-class stud:
-    #instance variable
-    
